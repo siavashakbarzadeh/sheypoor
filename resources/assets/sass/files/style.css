@@ -1,0 +1,23 @@
+body
+{
+  direction: rtl;
+  font-family: irs;
+}
+@font-face
+{
+  font-family: 'irs';
+  src:url(../fonts/ttf/IRANSansWeb.ttf);
+}
+input,select,option
+{
+  font-family: irs;
+}
+.navbar-brand
+{
+  margin-right: 90px !important;
+}
+.bg-faded a
+{
+  cursor: pointer;
+  color: #FFF !important;
+}

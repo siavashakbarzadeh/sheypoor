@@ -1,0 +1,146 @@
+body
+{
+  direction: rtl;
+  font-family: 'irs';
+}
+@media (max-width: 576px) {
+  .right-nav
+  {
+    margin-right: -10px !important;
+  }
+}
+@media (max-width: 992px)
+{
+  .border-left-here
+  {
+    border-left: none !important;
+  }
+
+}
+@font-face
+{
+  font-family: 'irs';
+  src:url(../fonts/ttf/IRANSansWeb.ttf);
+}
+.border-left-here
+{
+  border-left: 1px solid #ccc;
+  padding: 2px;
+
+
+}
+.dropdown-menu
+{
+  background: #0275d8  !important;
+
+}
+.dropdown-item
+{
+  color:  #fff !important;
+  margin-top: 7px;
+
+}
+.dropdown-item:hover
+{
+  background: #0275d8  !important;
+}
+.right-nav
+{
+  margin-right: 300px;
+}
+.icon-blue
+{
+  color: blue;
+  font-size:28px;
+}
+.category span
+{
+  color: #0078c1;
+  width: 250px;
+  cursor: pointer;
+}
+.custom-bg-faded
+{
+width: 40px;
+height: 40px;
+background: #f7f7f7;
+border-radius: 40%;
+margin-top: -15px;
+}
+.provience-item
+{
+
+  color: #0078c1;
+
+}
+.provience-item span
+{
+    padding: 14px;
+}
+.footer-1 .col-12
+{
+  background: #f7f7f7;
+ height: 160px;
+ border-top:2px solid #a19c9c;
+ margin-bottom: 2px;
+}
+.footer-2 .col-12
+{
+  background: #FFF;
+ height: 40px;
+
+}
+.footer-items
+{
+  padding: 30px;
+  color:#0078c1;
+  cursor: pointer;
+}
+.icon-gray
+{
+  padding: 10px;
+  color: #ccc;
+  font-size: 22px;
+}
+.sub_cat
+{
+  display: none !important;
+}
+.form-control
+{
+  width: 377px !important;
+}
+.icon-left
+{
+  position: relative;
+  right: 77%;
+}
+.upload_img
+{
+  width: 100px;
+  height: 94px;
+  border:1px dashed blue;
+  background: white;
+  cursor: pointer;
+}
+.file_upload
+{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -50px;
+  opacity: 0;
+  cursor: pointer;
+}
+.upload_plus
+{
+  font-size: 32px;
+  margin: 11px 40px;
+  color: blue;
+}
+.upload_text
+{
+  font-size: 14px;
+  margin: -20px 11px;
+  color: blue;
+}
